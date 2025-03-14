@@ -47,7 +47,7 @@ while True:
             precio.remove(precio_a_eliminar)
             print(f"{elemento_a_eliminar} ha sido eliminado.")
         else:
-            print(f"{elemento_a_eliminar} no está en el carrito.")
+            print(f"{elemento_a_eliminar} no esta en el carrito.")
 
     elif opcion == "4":
        
@@ -56,7 +56,7 @@ while True:
 
     elif opcion == "5":
      
-        print("¡Gracias por usar el programa! Adiós.")
+        print("Gracias por usar el programa, adios.")
         break
     else:
-        print("Opción no válida, por favor intenta de nuevo.")
+        print("Opcion no valida, intenta de nuevo.")
