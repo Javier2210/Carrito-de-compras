@@ -19,8 +19,7 @@ while True:
         print (f'Ingresa 6 para regresar al menu anterior')
         elemento = input(f"Ingresa el nombre del elemento: ")
         
-        if elemento == "6":
-           print(mostrar_menu())
+        if elemento == "6"
            print(f"Regresaste al menu anterior")
         else:
             precios = float(input(f"Ingresa el precio del producto: "))
@@ -39,7 +38,6 @@ while True:
         print (f'Ingresa 6 para regresar al menu anterior')
         elemento_a_eliminar = input(f"Ingresa el nombre y precio del elemento a eliminar: ")
         if elemento_a_eliminar == "6":
-            print(mostrar_menu())
             print(f"Regresaste al menu anterior")
 
         elif elemento_a_eliminar in carrito_de_compras:
